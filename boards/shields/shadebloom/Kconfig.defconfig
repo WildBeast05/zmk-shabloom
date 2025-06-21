@@ -1,0 +1,17 @@
+if SHIELD_SHADEBLOOM_LEFT
+
+# Name must be less than 16 characters long!
+config ZMK_KEYBOARD_NAME
+    default "ShadeBloom"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_SHADEBLOOM_LEFT || SHIELD_SHADEBLOOM_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif
