@@ -1,0 +1,5 @@
+config SHIELD_SHADEBLOOM_LEFT
+    def_bool $(shields_list_contains,shadebloom_left)
+
+config SHIELD_SHADEBLOOM_RIGHT
+    def_bool $(shields_list_contains,shadebloom_right)
